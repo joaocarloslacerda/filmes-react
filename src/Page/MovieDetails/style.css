@@ -4,7 +4,7 @@
     gap: 2rem;
 }
 
-.film.section{
+.film-section{
     display: flex;
     gap: 2rem;
 }
@@ -17,17 +17,17 @@
     font-size: 36px;
 }
 
-.film.section .details .infos{
+.infos{
     display: flex;
     height: 100%;
     align-items: center;
 }
 
-.film.section .details ul{
+.infos ul{
     list-style: none;
 }
 
-.film.section .details ul li {
+.infos ul li {
     margin-top: 1rem;
     font-size: 22px;
 }

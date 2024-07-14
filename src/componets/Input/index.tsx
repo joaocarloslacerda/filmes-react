@@ -1,4 +1,5 @@
 import { ComponentProps } from "react";
+import './style.css'
 
 interface InputProps extends ComponentProps<"input"> {}
 

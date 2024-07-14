@@ -10,9 +10,9 @@ function App() {
       <Header />  
 
       <div className='body'>
-        <MovieDetails />
+        {/* <MovieDetails /> */}
 
-        {/* <Home /> */}
+        <Home />
       </div>
        
     </>

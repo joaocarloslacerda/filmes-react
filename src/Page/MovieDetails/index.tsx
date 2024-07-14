@@ -9,12 +9,10 @@ export const MovieDetails = () => {
 
     const handleGetMovieDetails = async () => {
 
-        const response = await getFilmDetails('');
+        const response = await getFilmDetails('tt0800080');
 
         setFilm(response);
     }
-
-
 
     useEffect(() => {
         handleGetMovieDetails();
