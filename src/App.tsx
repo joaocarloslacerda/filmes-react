@@ -1,21 +1,17 @@
 import './App.css';
-import { Home } from './Page/Home';
-import { MovieDetails } from './Page/MovieDetails';
-
-import { Header } from './componets/Header/index'
+import { BrowserRouter} from 'react-router-dom';
+import { Header } from './componets/Header/index';
+import { AppRoutes } from '../src/routes';
 
 function App() {
-  return (
-    <>
-      <Header />  
+  return (    
+      <BrowserRouter>
+        <Header />
 
-      <div className='body'>
-        {/* <MovieDetails /> */}
-
-        <Home />
-      </div>
-       
-    </>
+        <div className='body'>
+          <AppRoutes />
+        </div>
+      </BrowserRouter>
   );
 }
 

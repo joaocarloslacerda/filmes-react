@@ -10,7 +10,7 @@ export const Card = ({film}: CardProps) => {
         <div className='card-container'>
             <img src={film.Poster} alt="poster" />
 
-            <a href='a'>{film.Title}</a>
+            <a href='MovieDetails'>{film.Title}</a>
 
             <span>Ano: {film.Year}</span>
             <span>ID: {film.imdbID}</span>
